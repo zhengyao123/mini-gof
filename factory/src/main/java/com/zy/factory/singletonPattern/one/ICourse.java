@@ -7,5 +7,5 @@ package com.zy.factory.singletonPattern.one;
  */
 public interface ICourse {
 
-    public void record();
+    void record();
 }
