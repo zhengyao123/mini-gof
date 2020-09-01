@@ -30,7 +30,5 @@ public class Test2 {
             file.set(HungrySingleton.getInstance(), a); //把反射创建出来的对象赋值给单例对象
             System.out.println("第二次拿到单例模式创建的对象: " + HungrySingleton.getInstance());
         }
-
-
     }
 }

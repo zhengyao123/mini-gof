@@ -18,14 +18,10 @@ public class Test4 {
         Constructor c = clazz.getDeclaredConstructor();
         c.setAccessible(true);
 
-        Object o = c.newInstance();
-        System.out.println(o);
-//
-//        Field[] fields = clazz.getDeclaredFields();
-//        for (Field field : fields) {
-//            field.setAccessible(true);
-//            LazyInnerClassSingleton o2 = (LazyInnerClassSingleton)field.get(LazyInnerClassSingleton.getInstance());
-//            System.out.println("-----"+o2);
-//        }
+        Object o1 = c.newInstance();
+        Object o2 = c.newInstance();
+        System.out.println(o1);
+        System.out.println(o2);
+
     }
 }
