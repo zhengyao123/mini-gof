@@ -34,6 +34,4 @@ public class PromotionStrategyFactory {
         String CASHBACK = "CASHBACK";
         String GROUPBUY = "GROUPBUY";
     }
-
-
 }
